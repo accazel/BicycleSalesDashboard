@@ -2,10 +2,10 @@
 
 <h2>Description</h2>
 Project consists of transforming a simple Excel dataset into a graphical user interface using the following steps: <br />
- Data Importing: imported data into Microsoft Excel <br />
- Data Cleaning: cleaned and processed the data<br />
- Data Manipulation: used various techniques to shape the dataset for data analysis and visualization <br />
- Data Visualization: displayed the data using plots and graphs
+ Data Importing: importing data into Microsoft Excel <br />
+ Data Cleaning: cleaning and processing the data<br />
+ Data Manipulation: using various techniques to shape the dataset for data analysis and visualization <br />
+ Data Visualization: displaying the data using charts and graphs
 <br />
 
 
