@@ -16,7 +16,8 @@ Project consists of transforming a simple Excel dataset into a graphical user in
 <h2>Walk-through:</h2>
 
 <p align="center">
- Data Importing: Started with the raw dataset, ready for cleaning <br/>
+ Data Importing: <br/>
+ Started with the raw dataset, ready for cleaning <br/>
 <img width="967" alt="Screen Shot 2023-09-19 at 1 46 31 PM" src="https://github.com/accazel/BicycleSalesDashboard/assets/8965854/cedb656c-9c71-4c8b-978c-21172fda1750">
 <br />
 <br />
