@@ -37,7 +37,8 @@ Created pivot tables and corresponding charts within the "Pivot Table" tab <br/>
 
 <br />
 <br />
-Final Dashboard:  <br/>
+Data Visualization:<br/>
+Copied over charts from the previous tab. Added slicers to allow users to filter the data reflected in all charts.  <br/>
 <img width="920" alt="Screen Shot 2023-09-18 at 3 30 18 PM" src="https://github.com/accazel/BicycleSalesDashboard/assets/8965854/09df0a8d-f9db-44cb-b2ae-59b20e9708d4">
 </p>
 
