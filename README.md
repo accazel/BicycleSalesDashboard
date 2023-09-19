@@ -24,8 +24,8 @@ Project consists of transforming a simple Excel dataset into a graphical user in
  Data Cleaning:  <br/>
  Identified and deleted any duplicate rows. There were 26 duplicate rows. <br/>
  Added a filter to the header. Reviewed each header for any typos or errors that may affect dashboard. <br/>
- Marital Status - Filtered & Replaced "S" & "M" with more clear "Single" & "Married" <br/>
- Gender - Filtered & Replaced "F" & "M" with more clear "Female" & "Male" <br/>
+ Marital Status - Filtered & Replaced "S" & "M" with clearer alternative "Single" & "Married" <br/>
+ Gender - Filtered & Replaced "F" & "M" with clearer alternative "Female" & "Male" <br/>
  Income - Confirmed data type was currency. Rounded to nearest whole number. <br/>
  Age Brackets - Added new column "Age Brackets" to group age by 3 groups to make filtering easy later on. =IF(L9>54,"Old",IF(L9>=31,"Middle Age",IF(L9<31,"Adolescent","Invalid")))<br/>
 <img width="1013" alt="Screen Shot 2023-09-19 at 1 55 16 PM" src="https://github.com/accazel/BicycleSalesDashboard/assets/8965854/963b5f21-0ed8-4f6f-93ae-bdbebe78d883">
