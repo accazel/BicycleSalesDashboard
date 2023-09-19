@@ -16,16 +16,29 @@ Project consists of transforming a simple Excel dataset into a graphical user in
 <h2>Walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ Data Importing: Started with the raw dataset, ready for cleaning: <br/>
+<img width="967" alt="Screen Shot 2023-09-19 at 1 46 31 PM" src="https://github.com/accazel/BicycleSalesDashboard/assets/8965854/cedb656c-9c71-4c8b-978c-21172fda1750">
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ Data Cleaning:  <br/>
+ Identified and deleted any duplicate rows. There were 26 duplicate rows. <br/>
+ Added a filter to the header. Reviewed each header for any typos or errors that may affect dashboard. <br/>
+ Marital Status - Filtered & Replaced "S" & "M" with more clear "Single" & "Married" <br/>
+ Gender - Filtered & Replaced "F" & "M" with more clear "Female" & "Male" <br/>
+ Income - Confirmed data type was currency. Rounded to nearest whole number. <br/>
+ Age Brackets - Added new column "Age Brackets" to group age by 3 groups to make filtering easy later on. =IF(L9>54,"Old",IF(L9>=31,"Middle Age",IF(L9<31,"Adolescent","Invalid")))<br/>
+<img width="1013" alt="Screen Shot 2023-09-19 at 1 55 16 PM" src="https://github.com/accazel/BicycleSalesDashboard/assets/8965854/963b5f21-0ed8-4f6f-93ae-bdbebe78d883">
+
 <br />
 <br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ Data Manipulation:  <br/>
+Created pivot tables and corresponding charts within the "Pivot Table" tab <br/>
+<img width="658" alt="Screen Shot 2023-09-19 at 2 07 18 PM" src="https://github.com/accazel/BicycleSalesDashboard/assets/8965854/9b9aa324-5ac3-4177-b91a-b69c810f67f7">
+
+<br />
+<br />
+Final Dashboard:  <br/>
+<img width="920" alt="Screen Shot 2023-09-18 at 3 30 18 PM" src="https://github.com/accazel/BicycleSalesDashboard/assets/8965854/09df0a8d-f9db-44cb-b2ae-59b20e9708d4">
 </p>
 
 <!--
