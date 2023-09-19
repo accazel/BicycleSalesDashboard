@@ -17,15 +17,15 @@ Project consists of transforming a simple Excel dataset into a graphical user in
 
 <p align="center">
  Data Importing: <br/>
- Started with the raw dataset, ready for cleaning <br/>
+ Started with the raw dataset, ready for cleaning. <br/>
 <img width="967" alt="Screen Shot 2023-09-19 at 1 46 31 PM" src="https://github.com/accazel/BicycleSalesDashboard/assets/8965854/cedb656c-9c71-4c8b-978c-21172fda1750">
 <br />
 <br />
  Data Cleaning:  <br/>
  Identified and deleted any duplicate rows. There were 26 duplicate rows. <br/>
  Added a filter to the header. Reviewed each header for any typos or errors that may affect dashboard. <br/>
- Marital Status - Filtered & Replaced "S" & "M" with clearer alternative "Single" & "Married" <br/>
- Gender - Filtered & Replaced "F" & "M" with clearer alternative "Female" & "Male" <br/>
+ Marital Status - Filtered & Replaced "S" & "M" with clearer alternative "Single" & "Married". <br/>
+ Gender - Filtered & Replaced "F" & "M" with clearer alternative "Female" & "Male". <br/>
  Income - Confirmed data type was currency. Rounded to nearest whole number. <br/>
  Age Brackets - Added new column "Age Brackets" to group age by 3 groups to make filtering easy later on. =IF(L9>54,"Old",IF(L9>=31,"Middle Age",IF(L9<31,"Adolescent","Invalid")))<br/>
 <img width="1013" alt="Screen Shot 2023-09-19 at 1 55 16 PM" src="https://github.com/accazel/BicycleSalesDashboard/assets/8965854/963b5f21-0ed8-4f6f-93ae-bdbebe78d883">
@@ -33,7 +33,7 @@ Project consists of transforming a simple Excel dataset into a graphical user in
 <br />
 <br />
  Data Manipulation:  <br/>
-Created pivot tables and corresponding charts within the "Pivot Table" tab <br/>
+Created pivot tables and corresponding charts within the "Pivot Table" tab. <br/>
 <img width="658" alt="Screen Shot 2023-09-19 at 2 07 18 PM" src="https://github.com/accazel/BicycleSalesDashboard/assets/8965854/9b9aa324-5ac3-4177-b91a-b69c810f67f7">
 
 <br />
